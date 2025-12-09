@@ -1,5 +1,3 @@
-# API Integration Internship Assignment – GLOBAL TREND
-
 ## Overview
 
 This Node.js + Express + Mongoose application fetches data from the public JSONPlaceholder API, caches it in MongoDB, and exposes endpoints to list, filter, and view post details.
