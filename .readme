@@ -1,0 +1,19 @@
+# API Integration Internship Assignment – GLOBAL TREND
+
+## Overview
+
+This Node.js + Express + Mongoose application fetches data from the public JSONPlaceholder API, caches it in MongoDB, and exposes endpoints to list, filter, and view post details.
+
+## Endpoints
+
+- **GET /api/fetch-data** → Fetches posts and users from JSONPlaceholder and caches them in MongoDB
+- **GET /api/posts** → List all posts; supports optional query parameter `?userId=`
+- **GET /api/posts/:id** → View post details including user info
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone <repo-url>
+   cd api-integration-assignment
+   ```
